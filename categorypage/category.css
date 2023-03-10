@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bg {
+    background-color: rgb(68, 9, 229);
+    height: 120px;
+    padding-top: 20px;
+}
+
+#navlogo {
+    background-color: white;
+    border-radius: 50px;
+    height: 100px;
+}
+
+.formpg {
+    text-align: center;
+    margin-top: -90px;
+    color: white;
+    font-size: large;
+}
+
+#inputnav {
+    width: 350px;
+    height: 40px;
+    border-radius: 100px;
+    color: rgb(243, 124, 6);
+    transition: all 5s ease;
+} 
+
+.navbtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(234, 150, 6);
+    color: white;
+}
+
+.navul {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-top: 10px;
+    width: 600px;
+    list-style-type: none;
+    background-color: gray;
+   
+}
+
+#inputnav:after {
+    background-color: rgb(255, 162, 0);
+    transform: translate(2px);
+}
+
+#inputnav:hover {
+    color: aliceblue;
+    background-color: rgb(255, 183, 0);
+}
+
+.navimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -100px;
+    margin-right: 50px;
+    color: white;
+}
+
+#ladyomar {
+    width: 50px;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+.hdtextarea {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.hdtext1 {
+    color: rgb(5, 5, 83);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hdtext2 {
+    color: rgb(216, 141, 1);
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.divinputbody {
+    margin-top: 100px;
+}
+
+.btnsub {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255, 162, 0, 0.571);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.btninputsub {
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    background-color: rgb(5, 5, 83);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+
+#categoryimg {
+    margin-left: 750px;
+    width: 500px;
+    height: 400px;
+    margin-top: -300px;
+}
+
+.btnsub:focus {
+    background-color: white;
+}
+
+.bgbtnboxes {
+    background-color: rgb(236, 173, 29);
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    color: aliceblue;
+    border: none;
+    margin-left: 100px;
+}
+
+
+/* skills css */
+
+.skilllistbg {
+    background-color: rgba(10, 187, 194, 0.17);
+}
+
+.tableclass, .tableclass2{
+    display: flex;
+}
+
+.tablebg, .tablebg2, .tablebg3  {
+    background-color: aliceblue;
+    width: 322px;
+    height: 368px;
+    margin: 50px 50px;
+}
+
+
+.tbtitle {
+    background-color: rgb(205, 138, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tbheading, .tbheading2, .tbheading3 {
+    background-color: rgb(71, 70, 147);
+    height: 63px;
+    border-radius: 15px;
+    color: white;
+    border-collapse: collapse;
+}
+
+.tbbody {
+    border: .01px solid;
+    border-radius: 10px;
+}
+
+#faspecial {
+    background-color: rgb(9, 12, 66);
+    color: aliceblue;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin-left: 220px;
+}
+
+.tablebg1 {
+    background-color: aliceblue;
+    width: 322px;
+    height: 368px;
+    border-radius: 15px;
+}
+
+
+/* Employee styling */
+.bgemployee {
+    background-color: rgba(213, 243, 245, 1);
+}
+
+
+.employeeheading {
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+    color: rgba(16, 38, 111, 1);
+}
+
+.divbox {
+    width: 328px;
+    height: 343px;
+    background-color: white;
+    margin-top: 71px;
+    margin-left: 208px;
+    text-align: center;
+    border-radius: 20px;
+}
+ 
+.btnemployee {
+    width: 208px;
+    height: 79px;
+}
+
+#imgemployee {
+    background-color: aliceblue;
+    width: 53px;
+    height: 54px;
+    border-radius: 15px;
+    display: flex;
+}

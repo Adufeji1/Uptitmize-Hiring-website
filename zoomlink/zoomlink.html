@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Uptimize Zoom Interview Link Generator</title>
+    <link rel="stylesheet" href="./zoomlink.css">
+  </head>
+  <body>
+    <img src="/images/uptimize_logo.png" alt="">
+    <div class="container">
+      <h1>Zoom Interview Link Generator</h1>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="date">Interview Date:</label>
+        <input type="date" id="date">
+      </div>
+      <div class="form-group">
+        <label for="time">Interview Time:</label>
+        <select id="time">
+          <option value="9:00am">9:00 AM</option>
+          <option value="11:00am">11:00 AM</option>
+          <option value="1:00pm">1:00 PM</option>
+          <option value="3:00pm">3:00 PM</option>
+        </select>
+      </div>
+      <button id="generateBtn">Generate Zoom link</button>
+      <div id="zoomLink"></div>
+    </div>
+
+    <script src="./zoomlink.js"></script>
+  </body>
+</html>

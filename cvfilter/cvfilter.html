@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV Filter</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/cvfilter/cvfilter.css">
+</head>
+<body>
+    <img src="/images/uptimize_logo.png" alt="">
+	<div class="container">
+		<h1>CV Filter</h1>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"><br>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br>
+
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone"><br>
+
+			<label for="city">City:</label>
+			<input type="text" id="city" name="city"><br>
+
+			<label for="education">Education:</label>
+			<select id="education" name="education">
+				<option value="">Select one</option>
+				<option value="highschool">High School</option>
+				<option value="college">College</option>
+				<option value="university">University</option>
+			</select><br>
+
+			<label for="experience">Experience:</label>
+			<textarea id="experience" name="experience"></textarea><br>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<script src="/cvfilter/cvfilter.js"></script>
+</body>
+</html>

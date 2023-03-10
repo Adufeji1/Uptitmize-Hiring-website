@@ -8,57 +8,92 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-qI2UvksLWdOtmUZz6UZzhEwkrxOrpFjgMvjD6RGy4z/kLX8Wfyz0lK4l4JdNS3qV0WkyQ2b0V7yTqo3Pn9tD2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,100;1,300;1,500;1,900&family=Noto+Sans+Mono:wght@100;200;400;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
     <title>Uptmize Hiring App</title>
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <!-- Heading section -->
     <div class="bgHeading">
+        
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+          
         <div class="heading">
-            <div class="logoimg">.</div>
+            <div class="logoimg"><img src="/images/uptimize_logo.png" alt="logo"></div>
+
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+              
             <div class="login">
-                <button class="signupbtn">Sign Up</button>
+                <a href="./Signup/signup.html" alt="signup"><button class="signupbtn">Sign Up</button></a>
                 <a href="https://golden-taffy-150917.netlify.app/"><button class="loginbtn"><i class="fa-solid fa-lock"></i>login</button></a>
             </div>
+
+            <div class="ulbg">
+            <ul class="navlist">
+                <a href="#"><li>Home</li></a>
+                <a href="https://uptimize-job-listing-vw27.vercel.app/"><li>Grow</li></a>
+                <a href="./HireMe/hire.html" alt="hire"><li>Hire</li></a>
+                <a href="#"><li>Pricing</li></a>
+                <a href="https://uptimize-job-listing-vw27.vercel.app/"><li>Services</li></a>
+                <a href="./categorypage/category.html"><li>Category</li></a>
+            </ul> 
+        </div>
+
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+
             <form class="search-box">
-                <span class="search-title">Search:</span>
-                <input type="text" placeholder="Search for services">
+                <label class="search-title">Search</label>
+                <input id="
+                searchinput" type="text" placeholder="Search for services">
                 <button class="search-btn">
                     <i id="searchicon" class="fa  fa-magnifying-glass"></i>
                 </button>
             </form>
-            <ul class="navlist">
-                <a href="#"><li>Home</li></a>
-                <a href="https://uptimize-job-listing-vw27.vercel.app/"><li>Grow</li></a>
-                <a href="https://job-description-page.vercel.app/" alt="hire"><li>Hire</li></a>
-                <a href="#"><li>Pricing</li></a>
-                <a href="https://uptimize-job-listing-vw27.vercel.app/"><li>Services</li></a>
-                <a href="#"><li>Contact Us</li></a>
-            </ul> 
+        </div>
 
+        
             <div class="welcomesection"></div>
                 <div class="btnsection">
                     <a href="https://dancing-taffy-b4b92b.netlify.app/"><button class="button1">choose candidate</button></a>
                     
-                    <button class="button2">fast interviews</button>
-                    <button class="button3">filter applications and hire</button>
+                    <a href="./Signup/interviewgenerator/interview.html"><button class="button2">fast interviews</button></a>
+                    <a href="/cvfilter/cvfilter.html"><button class="button3">filter applications and hire</button></a>
                 </div>
 
                 <div class="textarea">
                 <h2 class="headingtext">Welcome to Uptimize</h2>
                 <p class="ptext">we make the hiring process easier in our website you can hire professional employee easily in such a really short time you can get a lot of services that will help you analyze ,filter and choose the best candidate to grow your buisness </p>
 
-                <button class="hiringbtn">Start Hiring</button>
+                <a href="/zoomlink/zoomlink.html"><button class="hiringbtn">Start Hiring</button></a>
             </div>
-
+            <img id="maskpeople" src="/images/hiremebg.png" alt="">
             </div>
-              
-        </div>
-        
-    </div>
+         </div>
 
     <!-- What we do for our business section -->
     <div class="businessbg">
+        
         <h2 class="businessheading">What We Do For Your Business</h2>
         <div class="box">
             <div id="firstbox" class="businessbox">
@@ -67,11 +102,13 @@
                 <P>the website will help you make thE hiring process much easier for you</P>
             </div>
 
+            <a href="./Signup/interviewgenerator/interview.html">
             <div class="businessbox">
                 <i id="iconbox" class="fa-solid fa-computer"></i>
                 <h3>MAKING INTERVIEWS</h3>
                 <P>you can make a professional interview fast and easy</P>
             </div>
+        </a>
 
             <div  class="businessbox">
                 <i id="iconbox" class="fa-solid fa-mobile-android-alt"></i>
@@ -139,13 +176,14 @@
             <p class="ttext">This website helped me hire qualifies people easily it was so fast and professional and i was able to get all the skills i want in the employee now my company is growing more because of the qualified employees i hired</p>
             <p class="pbold"><strong>cane david</strong></p>
         </div>
+
+        <div class="footerbg">
+            <button class="footerbtn">Start Hiring</button>
+        </div>
     </div>
 
      <!-- footer section -->
-     <div class="footerbg">
-        <button class="footerbtn">Start Hiring</button>
-    </div>
-
+    
         <div class="footericons"> 
             <p>© 2022, All rights reserved to Tech4dev</p>
             <img src="/images/Payment.png" alt="paymenticons">

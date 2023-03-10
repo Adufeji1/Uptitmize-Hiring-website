@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Interview Date Generator</title>
+    <link rel="stylesheet" href="../interviewgenerator/interview.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Interview Date Generator</h1>
+      <div class="form-group">
+        <label for="date">Select interview date:</label>
+        <input type="date" id="date">
+      </div>
+      <div class="form-group">
+        <label for="time">Select interview time:</label>
+        <select id="time">
+          <option value="09:00:00">9:00 AM</option>
+          <option value="11:00:00">11:00 AM</option>
+          <option value="13:00:00">1:00 PM</option>
+          <option value="15:00:00">3:00 PM</option>
+        </select>
+      </div>
+      <button id="generateBtn">Generate interview slot</button>
+      <div id="interviewSlot"></div>
+    </div>
+
+    <img src="/images/uptimize_logo.png" alt="">
+    <script src="../interviewgenerator/interview.js"></script>
+  </body>
+</html>
